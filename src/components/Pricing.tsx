@@ -15,7 +15,6 @@ const plans = [
       'Campaign Reports',
       'Opt-Out Management',
       'Auto Reply',
-      'Chatbot',
       'Group Grabber',
       'Trust Builder'
     ],
@@ -38,7 +37,9 @@ const plans = [
       'Chatbot',
       'Group Grabber',
       'Trust Builder',
-      'Priority Support'
+      'Priority Support',
+      'Smart Protection',
+      'Keep awake feature'
     ],
     popular: true
   },
@@ -49,6 +50,7 @@ const plans = [
     description: 'For power users',
     features: [
       '25 WhatsApp Devices',
+      'Multi device support (IOS + Android)',
       'WhatsApp Bulk Messages',
       'Contacts List',
       'Interactive Templates',
@@ -60,7 +62,10 @@ const plans = [
       'Group Grabber',
       'Trust Builder',
       'Priority Support',
-      'Advanced Campaign Analytics'
+      'Advanced Campaign Analytics',
+      'Smart Protection',
+      'Keep awake feature',
+      'Support Fix'
     ],
     popular: false
   }
