@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import TrustSection from './components/TrustSection';
 import Features from './components/Features';
 import DemoVideo from './components/DemoVideo';
+import Reviews from './components/Reviews';
 import Pricing from './components/Pricing';
 import Download from './components/Download';
 import FAQ from './components/FAQ';
@@ -17,6 +18,7 @@ function App() {
       <TrustSection />
       <Features />
       <DemoVideo />
+      <Reviews />
       <Pricing />
       <Download />
       <FAQ />
