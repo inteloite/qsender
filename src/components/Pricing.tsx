@@ -3,7 +3,7 @@ import { Check, Star } from 'lucide-react';
 const plans = [
   {
     name: 'Starter Plan',
-    price: '₹999',
+    price: '₹1199',
     period: 'year',
     description: 'Best for beginners',
     features: [
@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: 'Professional Plan',
-    price: '₹1499',
+    price: '₹1999',
     period: 'year',
     description: 'Most Popular',
     features: [
