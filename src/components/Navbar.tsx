@@ -14,8 +14,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center group">
             <img
-              src="/zyqora-logo-.png"
-              alt="Zyqora"
+              src="/qsender-logo.png"
+              alt="QSender"
               className="h-14 sm:h-16 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </a>
@@ -29,8 +29,8 @@ export default function Navbar() {
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
 
             <a href="#download" className="relative group px-4 lg:px-6 py-2.5 rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-violet-500 opacity-100 group-hover:opacity-90 transition-opacity"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-violet-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 opacity-100 group-hover:opacity-90 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
               <span className="relative text-white font-semibold text-sm lg:text-base">Download Software</span>
             </a>
           </div>
@@ -93,8 +93,8 @@ export default function Navbar() {
               onClick={handleLinkClick}
               className="relative group px-6 py-3 rounded-lg overflow-hidden mt-2"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-violet-500"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-violet-500 blur-lg opacity-50"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 blur-lg opacity-50"></div>
               <span className="relative text-white font-semibold text-center block">Download Software</span>
             </a>
           </div>

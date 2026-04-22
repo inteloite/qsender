@@ -3,14 +3,14 @@ import { Check, Star } from 'lucide-react';
 const plans = [
   {
     name: 'Starter Plan',
-    price: '₹1199',
+    price: '₹1499',
     period: 'year',
     description: 'Best for beginners',
     features: [
       '3 WhatsApp Devices',
       'WhatsApp Bulk Messages',
       'Contacts List',
-      'Interactive Templates',
+      'Message Templates',
       'Send Single Message',
       'Campaign Reports',
       'Opt-Out Management',
@@ -22,14 +22,14 @@ const plans = [
   },
   {
     name: 'Professional Plan',
-    price: '₹1999',
+    price: '₹2499',
     period: 'year',
     description: 'Most Popular',
     features: [
       '10 WhatsApp Devices',
       'WhatsApp Bulk Messages',
       'Contacts List',
-      'Interactive Templates',
+      'Message Templates',
       'Send Single Message',
       'Campaign Reports',
       'Opt-Out Management',
@@ -45,7 +45,7 @@ const plans = [
   },
   {
     name: 'Enterprise Plan',
-    price: '₹2999',
+    price: '₹3499',
     period: 'year',
     description: 'For power users',
     features: [
@@ -53,7 +53,7 @@ const plans = [
       'Multi device support (IOS + Android)',
       'WhatsApp Bulk Messages',
       'Contacts List',
-      'Interactive Templates',
+      'Message Templates',
       'Send Single Message',
       'Campaign Reports',
       'Opt-Out Management',
@@ -74,7 +74,7 @@ const plans = [
 export default function Pricing() {
   return (
     <section id="pricing" className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-cyan-950/5 to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-green-950/5 to-black"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
@@ -92,16 +92,16 @@ export default function Pricing() {
             >
               {plan.popular && (
                 <div className="absolute -top-3 sm:-top-4 left-1/2 -translate-x-1/2 z-10">
-                  <div className="bg-gradient-to-r from-cyan-500 to-violet-500 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full flex items-center gap-1 sm:gap-1.5">
+                  <div className="bg-gradient-to-r from-green-500 to-emerald-500 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full flex items-center gap-1 sm:gap-1.5">
                     <Star className="w-3 h-3 sm:w-4 sm:h-4 text-white fill-white" />
                     <span className="text-white text-xs sm:text-sm font-semibold">MOST POPULAR</span>
                   </div>
                 </div>
               )}
 
-              <div className={`absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-violet-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity ${plan.popular ? 'opacity-50' : ''}`}></div>
+              <div className={`absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity ${plan.popular ? 'opacity-50' : ''}`}></div>
 
-              <div className={`relative bg-white/5 backdrop-blur-sm rounded-2xl sm:rounded-3xl border ${plan.popular ? 'border-cyan-400/50' : 'border-white/10'} p-6 sm:p-8 hover:border-cyan-400/50 transition-all h-full flex flex-col`}>
+              <div className={`relative bg-white/5 backdrop-blur-sm rounded-2xl sm:rounded-3xl border ${plan.popular ? 'border-green-400/50' : 'border-white/10'} p-6 sm:p-8 hover:border-green-400/50 transition-all h-full flex flex-col`}>
                 <div className="mb-4 sm:mb-6">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">{plan.name}</h3>
                   <p className="text-sm sm:text-base text-gray-400">{plan.description}</p>
@@ -109,7 +109,7 @@ export default function Pricing() {
 
                 <div className="mb-4 sm:mb-6">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent">
+                    <span className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
                       {plan.price}
                     </span>
                     <span className="text-sm sm:text-base text-gray-400">/ {plan.period}</span>
@@ -119,7 +119,7 @@ export default function Pricing() {
                 <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8 flex-1">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start gap-2 sm:gap-3">
-                      <Check className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                      <Check className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 flex-shrink-0 mt-0.5" />
                       <span className="text-sm sm:text-base text-gray-300">{feature}</span>
                     </li>
                   ))}
@@ -127,7 +127,7 @@ export default function Pricing() {
 
                 <a href="#download" className={`inline-block py-3 px-8 rounded-lg font-semibold transition-all text-center ${
                   plan.popular
-                    ? 'bg-gradient-to-r from-cyan-500 to-violet-500 text-white hover:opacity-90'
+                    ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white hover:opacity-90'
                     : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'
                 }`}>
                   Download Now

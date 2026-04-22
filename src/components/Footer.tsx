@@ -9,8 +9,8 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4">
               <img
-                src="/zyqora-logo-.png"
-                alt="Zyqora"
+                src="/qsender-logo.png"
+                alt="QSender"
                 className="h-14 w-auto object-contain"
               />
             </div>
@@ -24,22 +24,22 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">
+                <a href="#home" className="text-gray-400 hover:text-green-400 transition-colors text-sm">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#features" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">
+                <a href="#features" className="text-gray-400 hover:text-green-400 transition-colors text-sm">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">
+                <a href="#pricing" className="text-gray-400 hover:text-green-400 transition-colors text-sm">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#download" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">
+                <a href="#download" className="text-gray-400 hover:text-green-400 transition-colors text-sm">
                   Download
                 </a>
               </li>
@@ -51,31 +51,31 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-cyan-400 mt-0.5 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
                   <a
-                    href="mailto:support@zyqora.in"
-                    className="text-white hover:text-cyan-400 transition-colors"
+                    href="mailto:support@qsender.in"
+                    className="text-white hover:text-green-400 transition-colors"
                   >
-                    support@zyqora.in
+                    support@qsender.in
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-cyan-400 mt-0.5 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400 text-sm">Phone</p>
                   <a
                     href="tel:+919217758442"
-                    className="text-white hover:text-cyan-400 transition-colors"
+                    className="text-white hover:text-green-400 transition-colors"
                   >
                     +91 92177 58442
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-cyan-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-400 text-sm">Office</p>
                   <p className="text-white text-sm leading-relaxed">
@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Zyqora. All rights reserved.
+            © {new Date().getFullYear()} QSender. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
@@ -106,7 +106,7 @@ export default function Footer() {
       </div>
 
       {/* Background Gradient Effect */}
-      <div className="absolute inset-0 bg-gradient-to-t from-violet-500/5 to-transparent pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 to-transparent pointer-events-none"></div>
     </footer>
   );
 }

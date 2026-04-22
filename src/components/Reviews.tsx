@@ -3,16 +3,16 @@ const reviews = [
     name: 'Rahul Gupta',
     role: 'Digital Marketing Agency',
     business: 'Leads India Digital',
-    content: 'Managing 8 client WhatsApp accounts from one dashboard is insane. Zyqora saved us literally 3 hours per day. Campaigns go out on time, every time.',
+    content: 'Managing 8 client WhatsApp accounts from one dashboard is insane. QSender saved us literally 3 hours per day. Campaigns go out on time, every time.',
     rating: 5,
     avatar: 'RG',
-    color: 'bg-cyan-500',
+    color: 'bg-green-500',
   },
   {
     name: 'Priya Singh',
     role: 'E-commerce Store Owner',
     business: 'StyleHaven.in',
-    content: 'Sent a bulk campaign to 4,000 contacts for our Diwali sale. Orders started pouring in within the hour. Zyqora paid for itself in one campaign.',
+    content: 'Sent a bulk campaign to 4,000 contacts for our Diwali sale. Orders started pouring in within the hour. QSender paid for itself in one campaign.',
     rating: 5,
     avatar: 'PS',
     color: 'bg-rose-500',
@@ -39,7 +39,7 @@ const reviews = [
     name: 'Vikram Reddy',
     role: 'Restaurant Chain Owner',
     business: 'SpiceRoute Dhaba',
-    content: 'Daily specials reach 2,000+ loyal customers every morning. Footfall noticeably increased after we started WhatsApp campaigns through Zyqora.',
+    content: 'Daily specials reach 2,000+ loyal customers every morning. Footfall noticeably increased after we started WhatsApp campaigns through QSender.',
     rating: 5,
     avatar: 'VR',
     color: 'bg-orange-500',
@@ -57,7 +57,7 @@ const reviews = [
     name: 'Sanjay Iyer',
     role: 'Insurance Broker',
     business: 'SafeShield Finance',
-    content: 'Policy renewal reminders via WhatsApp get opened, emails don\'t. Renewals are up 35% since we switched to Zyqora. No API, no complications.',
+    content: 'Policy renewal reminders via WhatsApp get opened, emails don\'t. Renewals are up 35% since we switched to QSender. No API, no complications.',
     rating: 5,
     avatar: 'SI',
     color: 'bg-sky-500',
@@ -84,7 +84,7 @@ const reviews = [
     name: 'Pooja Bhatt',
     role: 'Nutritionist & Health Coach',
     business: 'FitLife Clinic',
-    content: 'I send weekly diet tips and appointment slots to clients. Zyqora\'s templates look polished and professional. Clients love the personal feel.',
+    content: 'I send weekly diet tips and appointment slots to clients. QSender\'s templates look polished and professional. Clients love the personal feel.',
     rating: 5,
     avatar: 'PB',
     color: 'bg-emerald-500',
@@ -120,7 +120,7 @@ const reviews = [
     name: 'Simran Kaur',
     role: 'Network Marketing Leader',
     business: 'GrowthNexus Team',
-    content: 'Following up with 500 leads manually was killing me. Zyqora changed everything. The Trust Builder keeps accounts safe and the results are real.',
+    content: 'Following up with 500 leads manually was killing me. QSender changed everything. The Trust Builder keeps accounts safe and the results are real.',
     rating: 5,
     avatar: 'SK',
     color: 'bg-red-500',
@@ -149,7 +149,7 @@ function StarIcon() {
 
 function ReviewCard({ r }: { r: typeof reviews[0] }) {
   return (
-    <div className="w-72 shrink-0 mx-3 rounded-2xl bg-white/[0.05] border border-white/[0.1] p-5 hover:border-cyan-400/40 hover:bg-white/[0.07] transition-colors">
+    <div className="w-72 shrink-0 mx-3 rounded-2xl bg-white/[0.05] border border-white/[0.1] p-5 hover:border-green-400/40 hover:bg-white/[0.07] transition-colors">
       <div className="flex items-center gap-1 mb-3">
         {Array.from({ length: r.rating }).map((_, j) => <StarIcon key={j} />)}
       </div>
@@ -170,15 +170,15 @@ function ReviewCard({ r }: { r: typeof reviews[0] }) {
 export default function Reviews() {
   return (
     <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-violet-950/10 to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-green-950/10 to-black"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 mb-12 sm:mb-16 text-center">
-        <p className="text-xs font-semibold tracking-widest uppercase text-cyan-400 mb-3">Testimonials</p>
+        <p className="text-xs font-semibold tracking-widest uppercase text-green-400 mb-3">Testimonials</p>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
           Loved by Businesses Across India
         </h2>
         <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
-          Real results from real users — marketers, agencies, and store owners growing with Zyqora.
+          Real results from real users — marketers, agencies, and store owners growing with QSender.
         </p>
       </div>
 

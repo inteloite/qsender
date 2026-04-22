@@ -5,17 +5,17 @@ const highlights = [
     icon: Shield,
     title: 'No WhatsApp API Needed',
     subtitle: 'Works directly with WhatsApp Web',
-    accent: 'cyan',
+    accent: 'green',
   },
   {
     icon: Send,
     title: 'Message Unsaved Numbers',
     subtitle: 'Reach any number instantly',
-    accent: 'blue',
+    accent: 'emerald',
   },
   {
     icon: Layers,
-    title: 'Interactive Templates',
+    title: 'Message Templates',
     subtitle: 'Buttons, lists & rich media',
     accent: 'teal',
   },
@@ -23,7 +23,7 @@ const highlights = [
     icon: Monitor,
     title: 'Multi-Device Automation',
     subtitle: 'Run multiple accounts at once',
-    accent: 'cyan',
+    accent: 'green',
   },
   {
     icon: DollarSign,
@@ -38,23 +38,23 @@ const audiences = [
     icon: TrendingUp,
     title: 'Digital Marketers',
     desc: 'Scale outreach & boost conversions',
-    gradient: 'from-cyan-500 to-blue-500',
-    borderHover: 'hover:border-cyan-400/60',
-    shadowHover: 'hover:shadow-[0_0_40px_rgba(6,182,212,0.25)]',
+    gradient: 'from-green-500 to-emerald-500',
+    borderHover: 'hover:border-green-400/60',
+    shadowHover: 'hover:shadow-[0_0_40px_rgba(34,197,94,0.25)]',
   },
   {
     icon: Users,
     title: 'Agencies',
     desc: 'Manage clients at scale',
-    gradient: 'from-blue-500 to-sky-500',
-    borderHover: 'hover:border-blue-400/60',
-    shadowHover: 'hover:shadow-[0_0_40px_rgba(59,130,246,0.25)]',
+    gradient: 'from-emerald-500 to-teal-500',
+    borderHover: 'hover:border-emerald-400/60',
+    shadowHover: 'hover:shadow-[0_0_40px_rgba(52,211,153,0.25)]',
   },
   {
     icon: ShoppingBag,
     title: 'Ecommerce Stores',
     desc: 'Recover carts & drive repeat sales',
-    gradient: 'from-teal-500 to-cyan-500',
+    gradient: 'from-teal-500 to-green-500',
     borderHover: 'hover:border-teal-400/60',
     shadowHover: 'hover:shadow-[0_0_40px_rgba(20,184,166,0.25)]',
   },
@@ -62,25 +62,24 @@ const audiences = [
     icon: Store,
     title: 'Local Businesses',
     desc: 'Fill appointments & grow loyalty',
-    gradient: 'from-emerald-500 to-green-500',
-    borderHover: 'hover:border-emerald-400/60',
-    shadowHover: 'hover:shadow-[0_0_40px_rgba(52,211,153,0.25)]',
+    gradient: 'from-green-500 to-teal-500',
+    borderHover: 'hover:border-green-400/60',
+    shadowHover: 'hover:shadow-[0_0_40px_rgba(34,197,94,0.25)]',
   },
   {
     icon: Target,
     title: 'Lead Gen Teams',
     desc: 'Qualify & nurture leads faster',
-    gradient: 'from-sky-500 to-blue-500',
-    borderHover: 'hover:border-sky-400/60',
-    shadowHover: 'hover:shadow-[0_0_40px_rgba(56,189,248,0.25)]',
+    gradient: 'from-emerald-500 to-green-500',
+    borderHover: 'hover:border-emerald-400/60',
+    shadowHover: 'hover:shadow-[0_0_40px_rgba(52,211,153,0.25)]',
   },
 ];
 
 const accentColors: Record<string, { icon: string; bg: string; ring: string; check: string }> = {
-  cyan: { icon: 'text-cyan-400', bg: 'bg-cyan-500/10', ring: 'ring-cyan-500/20', check: 'text-cyan-400' },
-  blue: { icon: 'text-blue-400', bg: 'bg-blue-500/10', ring: 'ring-blue-500/20', check: 'text-blue-400' },
-  teal: { icon: 'text-teal-400', bg: 'bg-teal-500/10', ring: 'ring-teal-500/20', check: 'text-teal-400' },
+  green: { icon: 'text-green-400', bg: 'bg-green-500/10', ring: 'ring-green-500/20', check: 'text-green-400' },
   emerald: { icon: 'text-emerald-400', bg: 'bg-emerald-500/10', ring: 'ring-emerald-500/20', check: 'text-emerald-400' },
+  teal: { icon: 'text-teal-400', bg: 'bg-teal-500/10', ring: 'ring-teal-500/20', check: 'text-teal-400' },
 };
 
 export default function Hero() {
@@ -89,18 +88,18 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-black to-black"></div>
 
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-cyan-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-blue-500/15 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-green-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-emerald-500/15 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
         <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 px-2 animate-scale-in">
-            <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent animate-gradient-shift">
+            <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 bg-clip-text text-transparent animate-gradient-shift">
               Automate WhatsApp
             </span>
             <br />
-            <span className="text-white">Messaging with Zyqora</span>
+            <span className="text-white">Messaging with QSender</span>
           </h1>
 
           <p className="text-base sm:text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-10 sm:mb-12 px-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -135,8 +134,8 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
             <a href="#download" className="group relative px-8 sm:px-12 py-4 sm:py-5 rounded-xl overflow-hidden animate-glow-pulse flex-1 sm:flex-none sm:min-w-[300px]">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
               <div className="relative flex items-center justify-center gap-2 text-white font-semibold text-base sm:text-lg">
                 Download Software
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -150,9 +149,9 @@ export default function Hero() {
         </div>
 
         <div className="relative max-w-5xl mx-auto animate-scale-in px-4" style={{ animationDelay: '0.8s' }}>
-          <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-2xl blur-2xl animate-pulse-slow"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-2xl blur-2xl animate-pulse-slow"></div>
 
-          <div className="relative bg-gradient-to-b from-white/10 to-white/5 backdrop-blur-xl rounded-xl sm:rounded-2xl border border-white/20 p-4 sm:p-6 shadow-2xl animate-float hover:border-cyan-400/30 transition-colors">
+          <div className="relative bg-gradient-to-b from-white/10 to-white/5 backdrop-blur-xl rounded-xl sm:rounded-2xl border border-white/20 p-4 sm:p-6 shadow-2xl animate-float hover:border-green-400/30 transition-colors">
             <div className="flex items-center gap-2 mb-4">
               <div className="flex gap-1 sm:gap-1.5">
                 <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-red-400"></div>
@@ -160,29 +159,29 @@ export default function Hero() {
                 <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-400"></div>
               </div>
               <div className="flex-1 bg-white/5 rounded px-2 sm:px-3 py-1 text-xs sm:text-sm text-gray-400">
-                Zyqora Dashboard
+                QSender Dashboard
               </div>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-cyan-400/50 transition-all hover:scale-105 hover:bg-white/10 group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-green-400/50 transition-all hover:scale-105 hover:bg-white/10 group">
                 <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-                  <div className="p-1.5 sm:p-2 bg-cyan-500/10 rounded-lg group-hover:scale-110 transition-transform">
-                    <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-400" />
+                  <div className="p-1.5 sm:p-2 bg-green-500/10 rounded-lg group-hover:scale-110 transition-transform">
+                    <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-400" />
                   </div>
                   <span className="text-white font-semibold text-sm sm:text-base">Campaigns</span>
                 </div>
                 <div className="text-2xl sm:text-3xl font-bold text-white mb-1">1,247</div>
                 <div className="text-xs sm:text-sm text-gray-400">Active campaigns</div>
                 <div className="mt-2 sm:mt-3 h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full w-3/4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full transition-all duration-1000"></div>
+                  <div className="h-full w-3/4 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full transition-all duration-1000"></div>
                 </div>
               </div>
 
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-cyan-400/50 transition-all hover:scale-105 hover:bg-white/10 group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-green-400/50 transition-all hover:scale-105 hover:bg-white/10 group">
                 <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-                  <div className="p-1.5 sm:p-2 bg-blue-500/10 rounded-lg group-hover:scale-110 transition-transform">
-                    <BarChart3 className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
+                  <div className="p-1.5 sm:p-2 bg-emerald-500/10 rounded-lg group-hover:scale-110 transition-transform">
+                    <BarChart3 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400" />
                   </div>
                   <span className="text-white font-semibold text-sm sm:text-base">Analytics</span>
                 </div>
@@ -194,12 +193,12 @@ export default function Hero() {
                     <span>98%</span>
                   </div>
                   <div className="h-1 bg-white/10 rounded-full overflow-hidden">
-                    <div className="h-full w-[98%] bg-cyan-500 rounded-full transition-all duration-1000"></div>
+                    <div className="h-full w-[98%] bg-green-500 rounded-full transition-all duration-1000"></div>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-cyan-400/50 transition-all hover:scale-105 hover:bg-white/10 sm:col-span-2 md:col-span-1 group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/10 hover:border-green-400/50 transition-all hover:scale-105 hover:bg-white/10 sm:col-span-2 md:col-span-1 group">
                 <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
                   <div className="p-1.5 sm:p-2 bg-teal-500/10 rounded-lg group-hover:scale-110 transition-transform">
                     <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-teal-400" />
@@ -219,12 +218,12 @@ export default function Hero() {
 
         <div className="max-w-6xl mx-auto mt-16 sm:mt-24 px-4 animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
           <div className="text-center mb-8 sm:mb-12">
-            <p className="text-sm font-semibold tracking-widest uppercase text-cyan-400 mb-3">Who it's for</p>
+            <p className="text-sm font-semibold tracking-widest uppercase text-green-400 mb-3">Who it's for</p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3">
               Built For Teams That Sell
             </h2>
             <p className="text-gray-500 text-sm sm:text-base max-w-xl mx-auto">
-              From solo marketers to enterprise teams -- Zyqora adapts to your workflow
+              From solo marketers to enterprise teams — QSender adapts to your workflow
             </p>
           </div>
 
