@@ -89,8 +89,8 @@ export default function Download() {
 
   const handleWindowsDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://github.com/syed-roshan01/zyqora-site/releases/download/v1.0.1/Zyqora.Setup.1.0.1.exe';
-    link.download = 'QSender Setup 1.0.1.exe';
+    link.href = 'https://github.com/inteloite/qsender/releases/download/V1.0.1/QSender.Setup.1.0.0.exe';
+    link.download = 'QSender Setup 1.0.0.exe';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
