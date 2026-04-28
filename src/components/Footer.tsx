@@ -55,10 +55,10 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
                   <a
-                    href="mailto:support@qsender.in"
+                    href="mailto:qsenderauto26@gmail.com"
                     className="text-white hover:text-green-400 transition-colors"
                   >
-                    support@qsender.in
+                    qsenderauto26@gmail.com
                   </a>
                 </div>
               </li>
@@ -67,10 +67,10 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-400 text-sm">Phone</p>
                   <a
-                    href="tel:+916260468669"
+                    href="tel:+917692050059"
                     className="text-white hover:text-green-400 transition-colors"
                   >
-                    +91 62604 68669
+                    +91 76920 50059
                   </a>
                 </div>
               </li>

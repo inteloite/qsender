@@ -3,7 +3,7 @@ import { Download as DownloadIcon, Apple, X, MessageCircle } from 'lucide-react'
 
 function LicensePopup({ onClose }: { onClose: () => void }) {
   const handleWhatsApp = () => {
-    const phoneNumber = '916260468669';
+    const phoneNumber = '917692050059';
     const message = 'Hi, I just downloaded QSender and need help with my license key!';
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
